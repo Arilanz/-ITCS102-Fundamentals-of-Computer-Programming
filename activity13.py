@@ -12,6 +12,7 @@ username=input('ENTER A USERNAME: ')
 password=getpass.getpass('ENTER A PASSSWORD: ')
 
 if u == username and p == password: 
+    print('YOU SUCCESSFULLY LOGGED IN, PLEASE FILL THE FORM BELOW')
     print('==========================LOAN ELIGIBILITY CHECKER=====================')
     name=input('FIRST NAME OF LOAN APPLICANT: ')
     age=int(input('YOUR AGE: '))
