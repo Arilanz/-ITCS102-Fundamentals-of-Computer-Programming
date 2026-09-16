@@ -25,7 +25,7 @@ if u == username and p == password:
         type=('DESCRIPTION OF COLLATERAL: {eg. HOUSE, CAR, LAND, ETC}: ')
     if collateral == True:
         value=eval(input('VALUE OF COLLATERAL: '))
-    if  21 <= age <= 65 and employed == True and value >= 30000 :
+    if  age >= 21 and age <= 65 and employed == True and value >= 30000 :
         if credit >= 750 :
             if income >= 100000:
                 print('YOU ARE ELIGABLE>_>')
