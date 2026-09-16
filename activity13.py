@@ -23,9 +23,11 @@ if u == username and p == password:
         credit=eval(input('CREDIT SCORE HISTORY: '))
         collateral=bool(input('DO YOU HAVE COLLATERAL: {IF YES ANSWER true if press enter only}: '))
         type=('DESCRIPTION OF COLLATERAL: {eg. HOUSE, CAR, LAND, ETC}: ')
-    if collateral == True:
-        value=eval(input('VALUE OF COLLATERAL: '))
-    if  age >= 21 and age <= 65 and employed == True and value >= 30000 :
+        if collateral == True:
+            money=int(input('VALUE OF COLLATERAL: '))
+        else:
+            print('NO COLLATERAL, PLEASE PROCEED')
+    if  age >= 21 and age <= 65 and employed == True and money >= 30000:
         if credit >= 750 :
             if income >= 100000:
                 print('YOU ARE ELIGABLE>_>')
