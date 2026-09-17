@@ -37,14 +37,14 @@ if u == username and p == password:
                 print('INTEREST: 4.5%')
                 print('\n==========================LOAN SUMMARY==============================')
                 print('INTEREST AMOUNT: ₱', amount_loan * 0.045)
-                print('TOTAL PAYMENT: ₱', amount_loan + (amount_loan * 0.045))
+                print('TOTAL REPAYMENT: ₱', amount_loan + (amount_loan * 0.045))
             else:
                 print('=========================================================================')
                 print('YOU ARE ELIGABLE>_>')
                 print('INTEREST: 5.0%')
                 print('\n==========================LOAN SUMMARY==============================')
                 print('INTEREST AMOUNT: ₱', amount_loan * 0.05)
-                print('TOTAL PAYMENT: ₱', amount_loan + (amount_loan * 0.05))
+                print('TOTAL REPAYMENT: ₱', amount_loan + (amount_loan * 0.05))
         elif 600 <= credit < 750:
             if collateral == True :
                 print('=========================================================================')
@@ -52,21 +52,21 @@ if u == username and p == password:
                 print('INTEREST: 7.0%')
                 print('\n==========================LOAN SUMMARY==============================')
                 print('INTEREST AMOUNT: ₱', amount_loan * 0.07)
-                print('TOTAL PAYMENT: ₱', amount_loan + (amount_loan * 0.07))
+                print('TOTAL REPAYMENT: ₱', amount_loan + (amount_loan * 0.07))
             elif income < 40000:
                 print('=========================================================================')
                 print('YOU ARE ELIGABLE>_>')
                 print('INTEREST: 9.5%')
                 print('\n==========================LOAN SUMMARY==============================')
                 print('INTERST AMOUNT: ₱', amount_loan * 0.095)
-                print('TOTAL PAYMENT: ₱', amount_loan + (amount_loan * 0.095))
+                print('TOTAL REPAYMENT: ₱', amount_loan + (amount_loan * 0.095))
             else:
                 print('=========================================================================')
                 print('YOU ARE ELIGABLE>_>')
                 print('INTEREST: 8.0%')
                 print('\n==========================LOAN SUMMARY==============================')
                 print('INTEREST AMOUNT: ₱', amount_loan * 0.08)
-                print('TOTAL PAYMENT: ₱', amount_loan + (amount_loan * 0.08))
+                print('TOTAL REPAYMENT: ₱', amount_loan + (amount_loan * 0.08))
         elif credit < 600:
             print('=========================================================================')
             print('YOU ARE NOT ELIGIBLE {Credit score too low} ')
