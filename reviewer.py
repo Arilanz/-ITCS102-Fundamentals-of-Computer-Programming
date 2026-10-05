@@ -25,6 +25,7 @@ if age >= 21 and bankcrupcy == False :
                 print('FEE: ',processingfee,)
         else:
             print('Insufficient Collateral REJECTED!!!')
+    
     elif 620 <= credit < 720:
         max_loan=monthly_income*1.5
         print('======SYSTEM======')
@@ -42,6 +43,7 @@ if age >= 21 and bankcrupcy == False :
                 print('FEE: ',processingfee,)
         else:
             print('Insufficient Collateral REJECTED!!!')
+    
     elif credit < 620:
         print('======SYSTEM======')
         print('Credit score below requirement')
