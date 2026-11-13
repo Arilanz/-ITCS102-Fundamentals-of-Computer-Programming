@@ -1,9 +1,11 @@
-#box
-n=int(input('Enter A Number ---------->: '))
-for x in range (n):
-    for y in range (n):
-        if x == n-1 or x == 0 or y == n-1 or y == 0:
-            print('*',end = ' ')
-        else:
-            print(' ', end = ' ')
-    print()
+fruits=["grapes", "longgan", "apple", "rambutan", "water melon", "banana"]
+print(fruits)
+
+#list functions
+
+fruits.append("pinya")
+fruits.append("star apple")
+fruits.append("melon")
+print(fruits)
+print(fruits[2])
+print(fruits[4])
