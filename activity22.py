@@ -55,3 +55,7 @@ bago={"Demon slayer":demonslayer,"JJK":jjk,}
 korean={"Solo Leveling":solo_leveling,"God Highschool":god_highschool,}
 
 anime={"old school":luma , "new anime":bago , "over rated": korean}
+
+
+print("=======Going down 1 level at a time========")
+print(anime["old school"]["HxH"]["Netero"])
