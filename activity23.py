@@ -1,4 +1,3 @@
-
 num=int(input("Enter a num --->"))
 
 def factorial_ko_ito(tamang_sagot):
@@ -22,13 +21,12 @@ print("output",agelimit(age))
 
 
 def ekis(num):
-    for x in range (num+1):
-        for y in range (num+1):
-            if x == y or x + y == num+1 :
-                print('*',end = '')
-        else:
-            print(' ',end = '')
-    print()
+    for x in range(num+1):
+        for y in range(num+1):
+            if x == y or x + y == num:
+                print('*', end='')
+            else:
+                print(' ', end='')
+        print()
 
-ekis(5)
-
+ekis(4)
